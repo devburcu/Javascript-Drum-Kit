@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Play Your Dream Song</h1>    
+    <div>
+        <button class="button" data-key="A" onclick="playSound('./src/boom.wav', this)">A</button>
+        <button class="button" data-key="S" onclick="playSound('./src/clap.wav', this)">S</button>
+        <button class="button" data-key="D" onclick="playSound('./src/hihat.wav', this)">D</button>
+        <button class="button" data-key="F" onclick="playSound('./src/kick.wav', this)">F</button>
+        <button class="button" data-key="G" onclick="playSound('./src/openhat.wav', this)">G</button>
+        <button class="button" data-key="H" onclick="playSound('./src/ride.wav', this)">H</button>
+        <button class="button" data-key="J" onclick="playSound('./src/snare.wav', this)">J</button>
+        <button class="button" data-key="K" onclick="playSound('./src/tink.wav', this)">K</button>
+        <button class="button" data-key="L" onclick="playSound('./src/tom.wav', this)">L</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
