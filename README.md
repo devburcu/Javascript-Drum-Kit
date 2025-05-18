@@ -33,7 +33,7 @@ Projeyi bilgisayarınızda çalıştırmak için:
 
 ## 🚀 Canlı Demo
 
-Projeyi canlı olarak görmek için [buraya tıklayın](#)
+Projeyi canlı olarak görmek için [buraya tıklayın](https://devburcu.github.io/Javascript-Drum-Kit/)
 
 ## 📸 Ekran Görüntüsü
 
